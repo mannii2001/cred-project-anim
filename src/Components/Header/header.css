@@ -1,0 +1,78 @@
+.header_section-wrapper{
+    position: relative;
+}
+.header-section{
+    min-height: 100vh;
+    text-align: center;
+}
+.header-heading{
+    font-size: 106px;
+    font-weight: 700;
+}
+
+.header-claim-label{
+    background-color: #272727;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.claim-arrow{
+    height: 11px;
+    margin: 7px 0px 0px 2px;
+}
+.claim{
+    color: rgb(126,162,236);
+    margin-left: 14px;
+    cursor: pointer;
+}
+.header-subHeading{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 35px 58px;
+    line-height: 38px;
+}
+@media screen and (max-width:1279px){
+        .header-heading{
+            font-size: 82px;
+            line-height: 92px;
+        }
+        .header-subHeading{
+            font-size: 25px;
+        }
+        .claim{
+           
+            margin-left: 5px;
+            
+        }
+}
+
+@media screen and (max-width:767px){
+
+    .header-section{
+        align-items: flex-start;
+        text-align: left;
+        min-height: 70vh;
+    }
+    .header-heading{
+        font-size: 55px;
+        line-height: 47.5px;
+        width: 270px;
+        margin-top: 60px;
+    }
+    .header-subHeading{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 35px 0px;
+    }
+    .claim-arrow{
+        height: 6px;
+        margin: 2px 0px 0px 2px;
+    }
+    .header-claim-label{
+        height: 55px;
+        font-size: 13px;
+    }
+}
